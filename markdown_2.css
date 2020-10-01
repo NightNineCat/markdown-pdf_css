@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, p , dl{
     margin-bottom: 16px;
     padding: 0;
 }
-h1 {
+h1{
     font-size: 30px;
     line-height: 54px;
 }
@@ -40,15 +40,15 @@ h3 {
     font-size: 22px;
     line-height: 30px;
 }
-h4 {
+h4{
     font-size: 20px;
     line-height: 26px;
 }
-h5 {
+h5{
     font-size: 18px;
     list-style: 23px;
 }
-a {
+a{
     color: #4169E1;
 	font-weight: bold;
     margin: 0;
@@ -59,11 +59,7 @@ a:hover {
     text-decoration: none;
     color: #ff6600;
 }
-a:visited {
-    /*color: purple;*/
-}
-
-ul, ol {
+ul, ol{
     padding: 0;
     padding-left: 24px;
     margin: 0;
@@ -79,18 +75,6 @@ p, ul, ol {
 ol ol, ul ol {
     list-style-type: lower-roman;
 }
-
-/*pre {
-    padding: 0px 24px;
-    max-width: 800px;
-    white-space: pre-wrap;
-}
-code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    line-height: 1.5;
-    font-size: 13px;
-}*/
-
 code, pre {
     border-radius: 3px;
     background-color:#f7f7f7;
@@ -112,39 +96,9 @@ pre {
     overflow: auto;
     border-left: 3px solid #AFEEEE;
 }
-/*
-pre > code {
-    border: 0;
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    font-size: .85em;
-    white-space: pre;
-    background: 0 0;
-
-}
-*/
 code {
     color: #666555;
 }
-
-
-/** markdown preview plus 对于代码块的处理有些问题, 所以使用统一的颜色 */
-/*code .keyword {
-  color: #8959a8;
-}
-
-code .number {
-  color: #f5871f;
-}
-
-code .comment {
-  color: #998
-}*/
-
 aside {
     display: block;
     float: right;
@@ -362,9 +316,6 @@ table {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    /*-webkit-box-shadow: 0 1px 1px #ccc;
-    -moz-box-shadow: 0 1px 1px #ccc;
-    box-shadow: 0 1px 1px #ccc;   */
 }
 table tr:hover {
     background: #fbf8e9;
@@ -389,9 +340,6 @@ table th {
     background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
     background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
     background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
-    /*-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
-    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;*/
     border-top: none;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     padding: 5px;
