@@ -1,5 +1,9 @@
 /* Extracted and interpreted from adcstyle.css and frameset_styles.css */
 
+* {
+    margin: 0;
+}
+
 /* body */
 body {
 	margin: 20px auto;
